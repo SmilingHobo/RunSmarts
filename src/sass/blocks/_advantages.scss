@@ -4,7 +4,7 @@
     &__wrapper {
         margin-top: 65px;
         display: flex;
-        justify-content: space-between;
+         justify-content: space-between;
     }
     &__item {
         display: flex;
@@ -28,5 +28,11 @@
             color: #ff0000;
             text-decoration: underline;
         }
+    &__icon{
+        &_animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+        }
+    }    
     }
 }
